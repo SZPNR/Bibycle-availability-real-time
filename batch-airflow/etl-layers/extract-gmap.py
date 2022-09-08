@@ -51,8 +51,8 @@ def upload_s3(df, destination, name):
     filename = convert_parquet(df, name)
 
     s3 = boto3.resource('s3',
-        aws_access_key_id = "AKIAV6RXMNQVQQD7YMO2",
-        aws_secret_access_key = "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"
+        aws_access_key_id = "",
+        aws_secret_access_key = ""
         )
 
     if destination == "raw_df":
