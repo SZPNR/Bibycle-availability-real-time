@@ -1,10 +1,10 @@
 #extract-gmap > extract-weather > raw-files-processing > processed-files-uploading
 
 #
-#extract-gmail et extract-weather
+#extract-gmap et extract-weather
 #
-#call API pour récup les localisations
-#voir les adresses de chaque point velib depuis l'API et récupérer la météo pour chaque point, envoie sur S3
+#s3-to-raw pour récup les localisations
+#voir les adresses de chaque point velib depuis l'API Google et récupérer la météo pour chaque point, envoie sur S3
 #calculer la distance entre chaque point d'après gmap
 #upload le df sur S3
 
