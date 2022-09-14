@@ -18,16 +18,13 @@ object Streaming {
     spark.sparkContext.setLogLevel("ERROR")
 
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.access.key", "AKIAV6RXMNQVQQD7YMO2")
+      .hadoopConfiguration.set("fs.s3a.access.key", "<your key>")
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.secret.key", "ZRvVcEeFhgMq0Fy8oI9ORMI7tWgm0SL6cYXlrbPr")
+      .hadoopConfiguration.set("fs.s3a.secret.key", "<your secret key>)
     spark.sparkContext
       .hadoopConfiguration.set("fs.s3a.endpoint", "s3.amazonaws.com")
 
 
-
-    // access key AKIAV6RXMNQVQQD7YMO2
-    // secret key ZRvVcEeFhgMq0Fy8oI9ORMI7tWgm0SL6cYXlrbPr
 
     val df = spark.readStream
       .format("kafka")
