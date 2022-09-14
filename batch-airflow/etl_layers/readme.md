@@ -14,6 +14,7 @@
 #récupérer le df depuis S3, mettre aux normes, envoie sur S3
 #voir s'il va pleuvoir dans l'heure, mettre intensité et proba ? 
 #-> https://meteofrance.com/previsions-meteo-france/paris/75000
+# https://fr.meteox.com/?time=01:00&fc=1
 
 #
 #processed-files-uploading
