@@ -1,14 +1,14 @@
-streaming-kafka-spark/kafka-spark-streaming-docker/spark-streaming/scala/target/
-streaming-kafka-spark/kafka-spark-streaming-docker/spark-streaming/scala/.vscode/
-streaming-kafka-spark/kafka-spark-streaming-docker/spark-streaming/scala/.metals/
-streaming-kafka-spark/kafka-spark-streaming-docker/spark-streaming/scala/.bloop/
+streaming_kafka/spark-streaming/scala/target/
+streaming_kafka/spark-streaming/scala/.vscode/
+streaming_kafka/spark-streaming/scala/.metals/
+streaming_kafka/spark-streaming/scala/.bloop/
 
-streaming-kafka-spark/kafka-spark-streaming-docker/jars_dir/
+streaming_kafka/jars_dir/
 
-streaming-kafka-spark/kafka-spark-streaming-docker/.vscode/
-streaming-kafka-spark/kafka-spark-streaming-docker/.metals/
+streaming_kafka/.vscode/
+streaming_kafka/.metals/
 
-streaming-kafka-spark/kafka-spark-streaming-docker/venv/
+streaming_kafka/venv/
 
 batch-airflow/logs
 batch-airflow/plugins
