@@ -91,7 +91,7 @@ upload_weather > end_extract_weather
 
 with DAG(
     dag_id = "weather",
-    schedule_interval = "0 23 * * 2",  # Every week
+    schedule_interval = "0 0 0/1 ? * * *",  # Every week
     catchup = True,
     max_active_runs = 3,
     start_date = datetime(2022, 9, 9, 20)
@@ -132,7 +132,7 @@ upload_weather > end_extract_weather
 
 with DAG(
     dag_id = "streaming",
-    schedule_interval = "0 23 * * 2",  # Every week
+    schedule_interval = "0 0/5 0 ? * * *",  # Every 5 minutes
     catchup = True,
     max_active_runs = 3,
     start_date = datetime(2022, 9, 9, 20)
