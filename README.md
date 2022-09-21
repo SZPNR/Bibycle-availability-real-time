@@ -1,5 +1,8 @@
 # Bibycle-availability-real-time
 
+TODO DOCUEMENTATION
+
+
 Démarrer docker kafka :
 
 sudo dockerd
