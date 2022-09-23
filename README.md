@@ -21,7 +21,7 @@ Each step is containerized in Docker and scheduled by Apache Airfow. The contain
 
 Fig1. Visual explanation of how the data pipeline works!
 
-[Présentation2](https://user-images.githubusercontent.com/94069984/191984112-75801482-8f69-44d7-9902-28727e4d7c9b.jpg)
+![Présentation2](https://user-images.githubusercontent.com/94069984/191984112-75801482-8f69-44d7-9902-28727e4d7c9b.jpg)
 
 
 
