@@ -1,4 +1,4 @@
-#Selection of pictures of the AWS S3 Bucket
+# Selection of pictures of the AWS S3 Bucket
 
 ![bucket](https://user-images.githubusercontent.com/94069984/191984652-12c4b079-038d-4cda-b328-0c5c7c7a74a5.PNG)
 Fig1. Picture of the two folders, the streaming and the batch
