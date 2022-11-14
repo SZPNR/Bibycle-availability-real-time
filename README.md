@@ -1,4 +1,4 @@
-# Bibycle-availability-real-time
+# Bicycle-availability-real-time
 
 # Chess to S3 to Snowflake Project
 
