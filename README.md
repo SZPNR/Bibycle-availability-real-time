@@ -1,6 +1,5 @@
 # Bicycle-availability-real-time
 
-# Chess to S3 to Snowflake Project
 
 `Data pipeline collecting data from multiple APIs to get access to real-time availability of public-use Velib bikes in Paris in addition to prediction of time journey and the weather.`
 
